@@ -1,0 +1,27 @@
+<!--?xml version="1.0" encoding="UTF-8"?-->
+<svg viewBox="0 0 280 80" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc" width="100%" height="auto">
+  <title id="title">simp logo</title>
+  <desc id="desc">Professional logo for simp with book icon and wordmark</desc>
+
+  <defs>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2563EB"></stop>
+      <stop offset="100%" stop-color="#7C3AED"></stop>
+    </linearGradient>
+  </defs>
+
+  <!-- open book icon -->
+  <g transform="translate(10,15)">
+    <!-- left page -->
+    <path d="M0 0 Q20 -5 40 0 V40 Q20 35 0 40 Z" fill="url(#accent)" opacity="0.95"></path>
+    <!-- right page -->
+    <path d="M40 0 Q60 -5 80 0 V40 Q60 35 40 40 Z" fill="#ffffff" stroke="url(#accent)" stroke-width="2"></path>
+    <!-- center spine line -->
+    <line x1="40" y1="0" x2="40" y2="40" stroke="#7C3AED" stroke-width="2" opacity="0.6"></line>
+  </g>
+
+  <!-- wordmark -->
+  <text x="110" y="52" font-family="Inter, sans-serif" font-weight="600" font-size="42" fill="#0F172A">
+    simp
+  </text>
+</svg>
